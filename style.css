@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logearte{
+
+    padding: 10px 20px;
+    height: 40px;
+    width: 352px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.botondegoogle{
+
+    height: 40px;
+    width: 352px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color: white;
+    border-color: #ededed;
+    font-size: 15px;
+    cursor: pointer;
+}
+form{
+display: inline-block;
+padding: 80px 0 0 180px;
+}
+.cubo{
+
+    height: 15px; 
+    width: 15px;
+    margin-left: 6px;
+}
+input{
+    margin-top: 5px;
+    height: 25px;
+    width: 340px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.zonaizquierda{
+
+
+    display: flex;
+    align-items:center;
+    margin-left:10px;
+
+ 
+    
+}
+
+.imagendefondo{
+
+    background-image:url(imagen.jpeg);
+
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    align-items: flex-end;
+    display: flex;
+
+}
+.zonaderecha{
+    display: flex;
+    
+    background-color: rgba(255, 255, 255, 0.093);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    margin-top: 300px auto;
+    width: 600px;
+    height: 320px;
+}
+.reguistrarse{
+
+    margin-top: 45px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.recuperarcontraseña{
+
+    margin-left: 25px;  
+    text-decoration: none;
+    color: black;
+}
+
+.logearte, .botondegoogle{
+
+    margin-top: 10px;
+}
+
+.estrellas{
+
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.nombredelachica{
+
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ultimoparrafo{
+
+    display: flex;
+    justify-content: space-between;
+    color: rgb(183, 183, 183);
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.flechasizquierdaderecha{
+
+    color: white;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.frase{
+
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 200;
+}
+
+.penultimoparrafo{
+
+        color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
